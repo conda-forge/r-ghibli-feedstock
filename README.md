@@ -1,11 +1,11 @@
-About r-ghibli
-==============
+About r-ghibli-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ghibli-feedstock/blob/main/LICENSE.txt)
 
 Home: https://ewenme.github.io/ghibli/, https://github.com/ewenme/ghibli
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ghibli-feedstock/blob/main/LICENSE.txt)
 
 Summary: Colour palettes inspired by Studio Ghibli <https://en.wikipedia.org/wiki/Studio_Ghibli> films, ported to R for your enjoyment.
 
