@@ -1,4 +1,4 @@
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ghibli_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ghibli/ghibli_{{ version }}.tar.gz
-  sha256: 8f552f2f11ec9aa8c8195dede155f318d26254c9987d3a31d6d2a049fb46894e
+  sha256: f985cfc44f8b622c898661d3efa167e341e6b1da7bdc13f0c130c1f5b46745e2
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
